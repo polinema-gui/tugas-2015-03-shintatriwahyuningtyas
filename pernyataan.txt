@@ -1,6 +1,10 @@
 Saya yang mempunyai identitas di bawah ini,
 NIM   : [1431140003]
+<<<<<<< HEAD
 Nama  : [Shinta Tri Wahyuning Tyas]
+=======
+Nama  : [Shinta Tri Wahyuning]
+>>>>>>> origin/master
 Kelas : [2 MI D]
 
 Dengan ini menyatakan:
