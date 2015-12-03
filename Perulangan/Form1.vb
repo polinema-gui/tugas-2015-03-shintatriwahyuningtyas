@@ -1,24 +1,20 @@
 ﻿Public Class Form1
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+    Private Sub ProblemBintangToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProblemBintang.Click
+        Bintang.MdiParent = Me
+        Bintang.Show()
     End Sub
 
-    Private Sub MenuStrip2_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles MenuStrip2.ItemClicked
-
-    End Sub
-
-    Private Sub ProblemBintangToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProblemBintangToolStripMenuItem.Click
-        Form2.MdiParent = Me
-        Form2.Show()
-    End Sub
-
-    Private Sub MatriksKalkulatorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MatriksKalkulatorToolStripMenuItem.Click
-        Form3.MdiParent = Me
-        Form3.Show()
+    Private Sub MatriksKalkulator_Click(sender As Object, e As EventArgs) Handles MatriksKalkulator.Click
+        Matriks.MdiParent = Me
+        Matriks.Show()
     End Sub
 
     Private Sub KeluarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KeluarToolStripMenuItem.Click
         Environment.Exit(0)
+    End Sub
+
+    Private Sub AplikasiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AplikasiToolStripMenuItem.Click
+
     End Sub
 End Class
